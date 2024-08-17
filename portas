@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+    int main(){
+        int p1, p2, doors, qtd, i;
+            scanf("%d", &qtd);
+
+            for(i = 0; i < qtd; i++){
+                scanf("%d %d", &p1, &p2);
+                doors = (p2 - p1); 
+                printf("%d\n", doors - 1);
+            }        
+
+return 0;
+}
